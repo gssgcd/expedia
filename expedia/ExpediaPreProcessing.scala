@@ -21,8 +21,8 @@ object ExpediaPreProcessing {
       System.exit(0)
     }
 
-    val args1=Array("file:///I:\\chinahadoop\\机器学习训练营\\训练营作业&代码\\3，推荐系统项目\\train.csv"
-    ,"file:///I:\\chinahadoop\\机器学习训练营\\训练营作业&代码\\3，推荐系统项目\\test.csv"
+    val args1=Array("file:////expedia\\train.csv"
+    ,"file:///expedia\\test.csv"
     ,"train"
     ,"test")
     val Array(trainPath, testPath, processTrainOut, processTestOut) = args

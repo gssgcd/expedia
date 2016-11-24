@@ -29,18 +29,12 @@ object ExpediaTrain {
       , "file:///home/hive/bj/ch/expedia/expedia_out_model"
       , "1"
     )
-val args2 = Array("i:\\chinahadoop\\机器学习训练营\\训练营作业&代码\\3，推荐系统项目\\xxdata\\expedia_ml\\part-00000"
-  , "i:\\chinahadoop\\机器学习训练营\\训练营作业&代码\\3，推荐系统项目\\xxdata\\expedia_ml_test\\part-00000"
-  , "i:\\chinahadoop\\机器学习训练营\\训练营作业&代码\\3，推荐系统项目\\expedia_train_out"
+val args2 = Array("expedia\\expedia_ml\\part-00000"
+  , "expedia\\expedia_ml_test\\part-00000"
+  , "expedia\\expedia_train_out"
   ,"1"
 )
 
-    val args3 = Array("/user/s-56/expedia_ml/part-00000"
-      , "/user/s-56/expedia_ml_test/part-00000"
-      , "/user/s-13/expedia_train_out2"
-      , "/user/s-13/expedia_train_out_model2"
-      ,"1"
-    )
     val Array(trainPath, testPath, trainOutput,modelPath, flag) = args
 
     val conf = new SparkConf()/* .setAppName("expediaTrain").setMaster("local[2]")*/

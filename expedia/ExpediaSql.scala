@@ -18,7 +18,7 @@ object ExpediaSql {
       System.exit(0)
     }
     val Array(trainPath, outPath) = args
-    //    val trainPath="I:\\chinahadoop\\机器学习训练营\\训练营作业&代码\\3，推荐系统项目\\xxdata\\output\\part-00000"
+    //    val trainPath="expedia\\output\\part-00000"
     val conf = new SparkConf()
     /*.setAppName("sqlTest").setMaster("local[2]")*/
     val sc = new SparkContext(conf)
